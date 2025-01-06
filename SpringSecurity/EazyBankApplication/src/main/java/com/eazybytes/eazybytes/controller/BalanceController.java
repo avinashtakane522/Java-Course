@@ -4,10 +4,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class AccountController {
+public class BalanceController {
 
-    @GetMapping("/welcome")
-    public String sayWelcome() {
-        return "Welcome to Spring Security";
+    @GetMapping("/myBalance")
+    public String getBalance() {
+        return "In my wallet balance is 1...........";
     }
 }
